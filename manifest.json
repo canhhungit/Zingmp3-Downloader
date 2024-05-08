@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Tải nhạc Zing mp3",
-  "description": "[2024] Tiện ích cho phép download nhạc từ zingmp3.vn. Tải album, playlist, video, bảng xếp hạng, nhạc chất lượng cao, lossless zing mp3.",
+  "description": "[2024] Tiện ích cho phép download nhạc từ zingmp3.vn. Tải album, playlist, bảng xếp hạng, nhạc chất lượng cao 320, lossless zing mp3",
   "author": "canhhungit <canhhungit@gmail.com>",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "icons": {
     "16": "logo.png",
     "48": "logo.png",
@@ -12,12 +12,10 @@
   "background": {
     "service_worker": "/background.js"
   },
-  "host_permissions": ["https://*.zingmp3.vn/*"],
-  "permissions": ["cookies", "activeTab", "webNavigation"],
+  "permissions": ["activeTab", "webNavigation"],
   "action": {
     "default_icon": "logo.png",
-    "default_title": "ZingMP3 Downloader",
-    "default_popup": "options.html"
+    "default_title": "ZingMP3 Downloader"
   },
   "content_scripts": [
     {
