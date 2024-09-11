@@ -3,7 +3,7 @@
   "name": "Tải nhạc Zing mp3",
   "description": "[2024] Tiện ích cho phép download nhạc từ zingmp3.vn. Tải album, playlist, BXH, 320kbps, lossless, Zing Mp3 Downloader",
   "author": "canhhungit <canhhungit@gmail.com>",
-  "version": "4.0.8",
+  "version": "4.0.9",
   "icons": {
     "16": "logo.png",
     "48": "logo.png",
